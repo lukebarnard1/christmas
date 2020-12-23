@@ -129,7 +129,7 @@ kind of file. Git generally works better with files that are text-based because
 it's optimised to track changes in large code bases with millions of lines of
 code.
 
-Apart from tracking, git is also built to distribute a repository of code
+Apart from file version tracking, git is also built to distribute a repository of code
 between multiple developers. This means that there isn't really a distinction
 between the repo on the git "server" vs. the repo on the git "client". One copy
 of a git repo is all you need to preserve it, which is one of the many reasons
