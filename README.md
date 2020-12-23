@@ -1,8 +1,5 @@
 
-To Henry,
-========
-
-# Merry Christmas!
+_Merry Christmas, Henry! 🎅🏻_
 
 Wow, what a year it's been. I hope you're doing okay. I thought I would make
 you something this year in the same spirit you'll be making all of us
@@ -226,7 +223,7 @@ given project, implement it, maybe leave some comments about how it works and
 then quickly proceed to forget everything I needed to know about that particular
 Node.js API.
 
-## Links
+### Links
  - [introduction to node](https://nodejs.dev/learn) - a comprehensive guide to
    getting started with Node.js. I've actually never read this but it looks
    great from a quick skim.
