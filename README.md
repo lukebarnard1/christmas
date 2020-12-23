@@ -121,7 +121,7 @@ I will say, using `vim` does come with a lot of caveats, the main one being that
 you have to do more work to get it set up in a way that even comes close to what
 editors like VSCode can do out of the box.
 
-## git
+## `git`
 
 Git allows programmers to track changes to the files they're working on. These
 files could be source code files, images, READMEs (like this) or literally any
