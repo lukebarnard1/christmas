@@ -1,7 +1,8 @@
 
 To Henry,
+========
 
-Merry Christmas!
+# Merry Christmas!
 
 Wow, what a year it's been. I hope you're doing okay. I thought I would make
 you something this year in the same spirit you'll be making all of us
@@ -77,20 +78,33 @@ The output you should have seen should look a bit like this:
 
 ![](./screenshot_1.png)
 
-If you want to get more acquainted with `bash`, I can suggest many years of just
-using it. I will be honest I still occasionally use the [bash cheat sheet](https://devhints.io/bash)
-when I'm writing a new script.
+I won't go into the details about how terminals and shells interact because you
+generally don't need to know. There's a
+[section on it at the end](https://github.com/lukebarnard1/christmas#what-do-terminals-actually-do)
+if you really want to know wtf is going on there.
 
-There's also a nice-looking introduction I found by Microsoft that might be
-useful to you:
-  https://docs.microsoft.com/en-us/learn/modules/bash-introduction/
-
-I haven't gone into the details about how terminals and shells interact because
-you generally don't need to know. There's a section on it at the end if you
-really want to know wtf is going on there.
+Here a some useful resources for using/learning how to use `bash`:
+  - [introduction to bash by Microsoft](https://docs.microsoft.com/en-us/learn/modules/bash-introduction/) - this includes some of the basics of using a few basic commands
+  - [bash cheat sheet](https://devhints.io/bash) - useful for quick reference of different syntax
 
 ## editors
 
+Editing files is something you'll do a lot if you're writing code all the time,
+which makes it all the more important to choose an editor that suits you best.
+
+Most devs I know have opted for [VSCode](https://code.visualstudio.com/), which
+is a free, super-powerful IDE with many many extensions that will probably give
+you everything you would ever need in your coding life, including integration
+with `git`.
+
+Some prefer to press fewer keys and avoid using a mouse/trackpad at _all_ costs, in
+which case I can highly recommend checking out the terminal-based editor, _vim_.
+If you want to sip the vim cool-aid, I can recommend getting a license for [Vim
+adventures](https://vim-adventures.com/) which is surprisingly fun and basically
+the only effective way to learn how to control vim. My preferred implementation
+of vim is
+[Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-download)
+if you're really interested in having a go.
 
 ## git
 
@@ -128,6 +142,7 @@ Once you've got the basics down, cheat sheets are great for quick reference.
  - `bash`: https://devhints.io/bash
  - `git`: https://about.gitlab.com/images/press/git-cheat-sheet.pdf
 
+# Node.js
 
 
 ## advanced stuff
@@ -189,7 +204,10 @@ emoji:
 ![](screenshot_2.png)
 
 Looking at that command above, you'll notice the word `export` - this is for
-setting environment variables.
+setting environment variables in the current shell session. You can inspect the
+values of environment variables by running `echo $NAME`, so for example if you
+wanted to check the value assigned to `PS1`, you could run `echo $PS1`.
+`
 
 
 
